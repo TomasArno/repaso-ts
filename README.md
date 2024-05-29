@@ -41,7 +41,7 @@
 
 <h1 align="center"> Consigna </h1>
 
-Para este desafío les propongo que desarrollen una app, siguiendo el patrón MVC, que consuma los datos de un JSON generado por una API del clima (ver link). El objetivo es que la app imprima esto en la consola:
+Para este desafío les propongo que desarrollen una app, siguiendo el patrón MVC, que consuma los datos de un JSON generado. El objetivo es que la app imprima esto en la consola:
 
 <p align="center"><img src="https://i.postimg.cc/d3NRcMHr/Screenshot-from-2023-07-22-00-11-59.png"></p>
 
@@ -51,12 +51,6 @@ El modelo tiene que exportar sólamente dos funciones (puede tener todas las fun
 - `getPressureLevelByTemperature(temperature)` => Retorna una collection en la que la propiedad `temperature` de los objetos sea igual o mayor al valor `temperature` recibido por parámetro. Los objetos que conformen esta collection tienen que tener la forma `{pressureSurfaceLeve: 1009.62, temperature: 21.25}`.
 
 <h1 align="center"> LINKS </h1>
-
-- [¿Qué es el modo estricto?](https://www.youtube.com/watch?v=7e6ssF78Af4&ab_channel=LaCocinadelC%C3%B3digo)
-
-- [Datos JSON](https://api.tomorrow.io/v4/weather/history/recent?location=buenos-aires&apikey=9RJgHTHxo3rMmnywTh7rfC4pTeOZ61n2)
-
-- [Weather API](https://docs.tomorrow.io/reference/welcome)
 
 - [Importá JSON ¡Sin jsonfile!](https://stackoverflow.com/questions/49996456/importing-json-file-in-typescript)
 
